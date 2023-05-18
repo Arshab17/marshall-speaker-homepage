@@ -1,0 +1,118 @@
+body,.row{
+
+    margin: 0;
+    padding: 0;
+ overflow-x: hidden;
+ background-color: rgb(21, 20, 20)
+   
+} 
+
+.section-1{
+   z-index: 100;
+   color: white;
+   height: 100vh;
+   background-size: cover;
+   background-image: url("images/Marshall_Homepage_Diamond-Jubilee_Hero-Banner_Desktop.jpg");
+   
+}
+
+.section-2{
+   
+   height: 80vh;
+   background-image: url("images/Teaser-1col-Banner-Desktop.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.section-3{
+  
+   height: 85vh;
+   background-image: url("images/ph31.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center
+   
+}
+.section-3-2{
+   height: 85vh;
+   background-image: url("images/ph32.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center
+   
+}
+.section-4{
+   height: 85vh;
+   background-image: url("images/ph41.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center
+   
+}
+.section-4-2{
+   height: 85vh;
+   background-image: url("images/ph42.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center
+   
+}
+
+.section-5{
+   height: 85vh;
+   background-image: url("images/ph51.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center
+   
+}
+.section-5-2{
+   height: 85vh;
+   background-image: url("images/ph52.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center
+   
+}
+.section-6{
+   height: 85vh;
+   background-image: url("images/ph61.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center
+   
+}
+.section-6-2{
+   height: 85vh;
+   background-image: url("images/ph62.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center
+   
+}
+.footer{
+   background-color: black;
+   
+}
+.nav-link:hover{
+   /* text-decoration: underline; */
+   border-bottom:2px solid greenyellow;
+}
+.nav-link{
+   transition: all 0.2s;
+}
+.foot{
+   overflow-y: hidden;
+}
+
+/* card test */
+
+.card{
+
+   position:absolute;
+   animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+   from { transform: translateX(100%); }
+   to { transform: translateX(-100%); }
+ }
